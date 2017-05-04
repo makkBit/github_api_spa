@@ -18,5 +18,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://makkBit.github.io/github_api_spa",
+  "homepage": "http://makkBit.github.io/github_api_spa"
 }
