@@ -1,0 +1,109 @@
+
+/************* Global ****************
+**************************************/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background-image: url('../public/bg.png');
+}
+
+img{
+  width: 130px;
+  height: 130px;
+}
+
+p, a{
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+
+
+
+/************* App.js ****************
+**************************************/
+.apptitle{
+  text-align: center;
+  font-size: 55px;
+  color: #81bc06;
+  font-family: 'Candal', sans-serif;
+  font-weight:bold;
+  padding: 18px;
+  margin-bottom: 40px;
+}
+
+
+
+
+/************* Search.js **************
+**************************************/
+
+.userpic{
+  cursor: pointer;
+  border: 8px solid #81bc06;
+  transition: all 0.2s ease-in-out;
+}
+
+.userpic:hover
+{
+    border:2px solid #81bc06;
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);  
+    -webkit-transform:rotate(360deg);  
+}
+
+.inputsearch{
+  width:18em;
+  margin:0 auto;
+  margin-bottom: 35px;
+}
+
+.error{
+  color:red;
+}
+
+
+
+
+/************* User.js **************
+**************************************/
+.pic{
+ margin-top: 7px;
+ border: 4px solid #81bc06;
+}
+
+/* Collapsible root */
+.Collapsible{
+  width:100%;
+  margin:auto;
+  max-width:300px;
+  text-align: center;
+  background: #81bc06;
+  box-shadow:0 17px 50px 0 rgba(0,0,0,.19),0 12px 15px 0 rgba(0,0,0,.24);
+  border-bottom: 1px solid silver;
+  cursor: pointer;
+}
+
+/* Collapsible head */
+.Collapsible span{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px 60px;
+}
+
+/* Collapsible body */
+.Collapsible__contentOuter{
+  background: grey;
+}
+.Collapsible__contentOuter p,a{
+  color: white;
+}
+
