@@ -13,7 +13,7 @@ import './index.css';
 
 ReactDOM.render((
   <Router history={browserHistory}>
-    <Route path="/" component={App}>
+    <Route path={process.env.PUBLIC_URL + '/'} component={App}>
     	<IndexRoute component={Search} />
     	<Route path="/user/:username" component={User} />
 	</Route>
