@@ -9,7 +9,7 @@ class App extends Component {
 
 			<div>
 
-				<Link to="/">
+				<Link to={process.env.PUBLIC_URL + '/'}>
 					<h3 className="apptitle"> Github Api SPA </h3>
 				</Link>
 
